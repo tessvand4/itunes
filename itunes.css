@@ -1,11 +1,13 @@
 /* hover*/
 .img-am{
     width: 60%;
-    margin:0;
+    margin:auto;
     display:block;
+    align-content: center;
 }
 .img-overlay{
     position: absolute;
+    margin: auto;
     top: 0;
     bottom: 0;
     left: 0;
@@ -14,11 +16,13 @@
     width: 60%;
     opacity: 0;
     transition: .5s ease;
-    background-color: crimson;
+    background-color: #F57D7C;
+    text-align: center;
 }
 .img-tekst{
     color: white;
-    font-size: 20px;
+    font-size: 40px;
+    font-weight: bold;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -41,6 +45,7 @@
 .activity_text{
     padding: 0 10px;
 }
+/*list*/
 
 /*background*/
 html {
@@ -53,7 +58,7 @@ html {
   
   .bg {
     animation:slide 3s ease-in-out infinite alternate;
-    background-image: linear-gradient(-60deg, rgb(101, 204, 50) 50%, #09f 50%);
+    background-image: linear-gradient(-60deg, #6CC2BD 50%, #FEE4C4 50%);
     bottom:0;
     left:-50%;
     opacity:.5;
