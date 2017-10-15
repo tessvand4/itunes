@@ -1,3 +1,11 @@
+body{
+  font-family: 'Dosis', sans-serif; 
+}
+/*titel*/
+.titel{
+  text-align: center;
+  margin-bottom: 25px;
+}
 /* hover*/
 .img-am{
     width: 60%;
@@ -152,9 +160,6 @@
   
   // Large devices (desktops, 992px and up)
   @media (min-width: 992px) {
-    .lijst{
-      font-size: 20px;
-    }
    }
   
   // Extra large devices (large desktops, 1200px and up)
