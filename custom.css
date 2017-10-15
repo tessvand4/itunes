@@ -63,6 +63,7 @@ body{
 /*info*/
 .info{
   text-align: center;
+  margin-top: 15px;
   margin-bottom: 15px;
   border-top: 1px dashed grey;
   border-bottom: 1px dashed grey;
@@ -145,22 +146,30 @@ body{
       transform:translateX(25%);
     }
   }
-  // Extra small devices (portrait phones, less than 576px)
+  /* Extra small devices (portrait phones, less than 576px)
   // No media query since this is the default in Bootstrap
   
   // Small devices (landscape phones, 576px and up)
-  @media (min-width: 576px) { ... }
+  @media (min-width: 576px) { ... }*/
   
-  // Medium devices (tablets, 768px and up)
+  /* Medium devices (tablets, 768px and up)*/
   @media (min-width: 768px) {
     .lijst{
       font-size: 20px;
     }
+    article{
+      column-count: 2;
+    }
+    .info{
+      font-size: 20px;
+    }
+    .plus:after{
+      font-size: 3em;
+    }
    }
   
-  // Large devices (desktops, 992px and up)
-  @media (min-width: 992px) {
-   }
+  /* Large devices (desktops, 992px and up)
+  @media (min-width: 992px) {...}*/
   
-  // Extra large devices (large desktops, 1200px and up)
-  @media (min-width: 1200px) { ... }
+  /* Extra large devices (large desktops, 1200px and up)
+  @media (min-width: 1200px) { ... }*/
