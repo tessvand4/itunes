@@ -175,6 +175,12 @@ body{
     .plus:after{
       font-size: 3em;
     }
+    .img-am{
+      width: 40%;
+    }
+    .img-overlay{
+      width: 40%;
+    }
    }
   
   /* Large devices (desktops, 992px and up)
